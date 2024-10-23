@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #156191;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+header h1{
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+
+}
+
+.subtitle{
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li{
+    color: #156191;
+    background-color: #f1f1f1f1;
+    border-radius: 8px;
+    display: inline;
+}
